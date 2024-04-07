@@ -16,7 +16,7 @@
       document.getElementsByClassName("btn-primary")[0].click();
     }
 
-    if(window.location.href=="https://sso.itmc.tu-dortmund.de/openam/XUI/?goto=https%3A%2F%2Fmoodle.tu-dortmund.de%2Flogin#login/"){
+    if(window.location.href.includes("https://sso.itmc.tu-dortmund.de/openam/XUI/")){
         var loginInterval = setInterval(function() {
                 //console.log(document.getElementById("idToken1").value);
             if(document.getElementById('idToken1') !==null){
