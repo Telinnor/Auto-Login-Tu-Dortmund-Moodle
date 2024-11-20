@@ -22,7 +22,10 @@
             if(document.getElementById('idToken1') !==null){
                 console.log(document.getElementById("idToken1").value);
                 if(document.getElementById("idToken1").value != ""){
+                    console.log("Click Button")
                     document.getElementsByClassName("btn-primary")[0].click();
+                }else if(document.getElementById("idToken1").value == "<empty string>"){
+                    console.log("empty string detected")
                 }
                 clearInterval(loginInterval);
             }
