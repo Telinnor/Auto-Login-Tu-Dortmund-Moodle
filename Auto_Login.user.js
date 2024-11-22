@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Auto Login TU Dortmund
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  Script to auto login into moodle of the TU Dortmund
 // @author       Lars Wittemeier (lars.wittemeier@tu-dortmund.de)
 // @match        https://*.tu-dortmund.de/*
 // @icon         https://www.tu-dortmund.de/storages/administration/_processed_/4/7/csm_favicon-600x600_ccc9d33448.png
 // @grant        none
-// @run-at       context-menu
+// @run-at       document-end
 // ==/UserScript==
 
 (function() {
